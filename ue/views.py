@@ -5,4 +5,4 @@ from .models import Event
 
 def index(request):
     events = Event.objects.filter().order_by('start')
-    return render(request, 'index.html', {'events': events})
+    return render(request, 'ue/index.html', {'events': events})
