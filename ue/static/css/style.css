@@ -24,13 +24,13 @@ body {
 }
 
 a {
-  color: #6173f4;
+  color: black;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #6173f4;
+  color: #7CBBE8;
   outline: none;
 }
 
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.3s;
   }
   #fh5co-header #navbar li a:hover {
-    color: #6173f4 !important;
+    color: #7CBBE8 !important;
   }
   #fh5co-header #navbar li a span:before {
     background: transparent !important;
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-header #navbar li.active a {
     background: transparent;
     background: none;
-    color: #6173f4 !important;
+    color: #7CBBE8 !important;
   }
   #fh5co-header #navbar li.active a span:before {
     visibility: visible;
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #6173f4;
+  background-color: #7CBBE8;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -176,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
 }
 #fh5co-header.navbar-fixed-top .navbar-brand {
-  color: #6173f4;
+  color: #7CBBE8;
 }
 #fh5co-header.navbar-fixed-top #navbar li a {
   color: rgba(0, 0, 0, 0.5);
@@ -185,12 +185,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #fh5co-header.navbar-fixed-top #navbar li a:hover {
-  color: #6173f4;
+  color: #7CBBE8;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a {
   background: transparent;
   background: none;
-  color: #6173f4;
+  color: #7CBBE8;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
   visibility: visible;
@@ -219,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #adadad;
 }
 #fh5co-header .navbar-default .brand-slogan em {
-  color: #6173f4;
+  color: #7CBBE8;
   font-style: normal;
 }
 #fh5co-header a {
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 .section-heading h2 {
   font-size: 50px;
   font-weight: 300;
-  color: #444;
+  color: #444!important;
   text-transform: uppercase;
   position: relative;
   display: block;
@@ -251,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 80px;
   height: 2px;
-  background: #6173f4;
+  background: #7CBBE8;
   left: 50%;
   margin-left: -40px;
   bottom: 0;
@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 56px;
   height: 56px;
   margin-top: -30px;
-  background: #6173f4;
+  background: #7CBBE8;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -392,7 +392,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 #fh5co-pricing .price-box.popular {
-  border: 2px solid #6173f4;
+  border: 2px solid #7CBBE8;
 }
 #fh5co-pricing .price-box.popular .popular-text {
   top: 0;
@@ -401,7 +401,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -2em;
   position: absolute;
   padding: 4px 20px;
-  background: #6173f4;
+  background: #7CBBE8;
   color: #fff;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -415,7 +415,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 50%;
   margin-left: -10px;
   border-top: 10px solid black;
-  border-top-color: #6173f4;
+  border-top-color: #7CBBE8;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 }
@@ -509,7 +509,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #2fc5cc;
 }
 #fh5co-our-services .box .icon.colored-6 {
-  background: #6173f4;
+  background: #7CBBE8;
 }
 #fh5co-our-services .box .step-number {
   font-size: 16px;
@@ -546,7 +546,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-features .fh5co-service .fh5co-icon i {
   font-size: 40px;
-  color: #6173f4;
+  color: #7CBBE8;
 }
 #fh5co-features .fh5co-service .fh5co-desc {
   width: 80%;
@@ -609,7 +609,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   height: 2px;
   width: 30px;
-  background: #6173f4;
+  background: #7CBBE8;
 }
 #fh5co-press .fh5co-press-item .fh5co-press-img {
   position: absolute;
