@@ -50,9 +50,9 @@
 	<link rel="stylesheet" id="theme-switch" href="{% static 'css/style.css' %}">
 
     <!-- Calendar -->
-    
-    <link href="{% static 'fullcalendar/dist/fullcalendar.min.css' %}" rel="stylesheet" />    
-        
+
+    <link href="{% static 'fullcalendar/dist/fullcalendar.min.css' %}" rel="stylesheet" />
+
 
 	<style>
 
@@ -415,7 +415,7 @@
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
 					<h2 class="single-animate animate-pricing-1">calendar</h2>
-					<section  class="row"> 
+					<section  class="row">
 						<div class="jumbotron" style="
 							background-color: white;
    				 			text-align: center;"
@@ -443,7 +443,7 @@
 	</div>
 </div>
 
-		
+
 
 
 	<footer id="fh5co-press" role="contentinfo">
@@ -480,10 +480,10 @@
 
 
 	<!-- Main JS (Do not remove) -->
-	
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) 
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins)
 
 
 
@@ -493,12 +493,12 @@
 	MAKE SURE YOU DO THAT, SO CSS CAN BE EDITED. OTHERWISE WON'T BE ABLE TO CHANGE THE COLOR
 	AND SHADOWS.
 
-	
+
 
 
 
 	-->
-    
+
     <script class="cssdesk" src="//arshaw.com/js/fullcalendar-1.5.3/fullcalendar/fullcalendar.min.js" type="text/javascript"></script>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 	<!-- or -->
@@ -513,14 +513,14 @@
  <script>
 
 $(document).ready(function() {
-		
+
 		$('#calendar').fullCalendar({
 			header: {
 				left: 'prev,next today',
 				center: 'title',
 				right: 'list,month,basicWeek,basicDay'
 			},
-			defaultDate: '2016-12-12',
+			currentdate,
 			navLinks: true, // can click day/week names to navigate views
 			editable: true,
 			eventLimit: true, // allow "more" link when too many events
@@ -544,7 +544,7 @@ $(document).ready(function() {
         }
 
 		});
-		
+
 	});
 
 </script>
