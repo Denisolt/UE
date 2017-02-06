@@ -12,7 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="United Engineering" />
 	<meta name="keywords" content="UE, nyit, acm, ieee, nsbe, swe" />
-	<meta name="author" content="DeniShakh" />
+	<meta name="author" content="ACM" />
 
   <!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -113,7 +113,13 @@
 		            <li><a href="" data-nav-section="IEEE"><span>IEEE</span></a></li>
 		            <li><a href="" data-nav-section="NSBE"><span>NSBE</span></a></li>
 		            <li><a href="" data-nav-section="SWE"><span>SWE</span></a></li>
-		            <li><a href="" data-nav-section="pricing"><span>More</span></a></li>
+								<li class="has-dropdown"><a href="#">More</a>
+									<ul class="dropdown">
+										<li><a href="pricing">Memberships</a></li>
+										<li><a href="events">Events</a></li>
+										<li><a href="calendar">Calendar</a></li>
+									</ul>
+					</li>
 		          </ul>
 		        </div>
 			    </nav>
@@ -451,7 +457,7 @@
 			<div class="row row-bottom-padded-sm">
 				<div class="col-md-12">
                     <p class="copyright text-center">&copy; United Engineering. <br/>
-               			 All Rights Reserved.
+               			 All Rights Reserved. Powered by msdocs and DeniShakh
                     </p>
 				</div>
 			</div>
@@ -512,9 +518,11 @@
 
  <script>
 
-$(document).ready(function() {
+$(document).ready(function()
+{
 
-		$('#calendar').fullCalendar({
+		$('#calendar').fullCalendar(
+			{
 			header: {
 				left: 'prev,next today',
 				center: 'title',
@@ -536,7 +544,8 @@ $(document).ready(function() {
 				},
                 {% endfor %}
 			],
-        eventClick:  function(event) {
+        eventClick:  function(event)
+				{
             $('#modalTitle').html(event.title);
             $('#modalStart').html(event.day);
             $('#modalBody').html(event.description);
