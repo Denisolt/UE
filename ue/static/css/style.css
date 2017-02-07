@@ -58,7 +58,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #818892;
   background: #f9f6f0;
 }
-
+.dropdown-menu {
+  background-color:#286090!important;
+}
 #fh5co-header {
   position: absolute;
   z-index: 99;
@@ -79,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-header .navbar-brand {
     color: #fff !important;
   }
-  
+
   #fh5co-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
     -webkit-transition: 0.3s;
