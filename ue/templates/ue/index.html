@@ -531,10 +531,11 @@ $(document).ready(function() {
                 {% for i in events %}
 				{
 					title: '{{  i.title  }} ',
-                    day: '{{   i.start.date}}',
-					start: '{{   i.start.date.year}}-{{   i.start.date.month}}-{{   i.start.date.day}}',
-                    end: '{{   i.end.date.year}}-{{   i.end.date.month}}-{{   i.end.date.day}}',
-                    description: '{{ i.desc }}'
+          day: '{{   i.start.date}}',
+					//time:'{{i.start.time.hour |stringformat:"02d" }}:{{i.start.time.minute |stringformat:"02d" }}:{{i.start.time.minute |stringformat:"02d" }}:{{i.start.time.seconds |stringformat:"02d" }}',
+					start: '{{   i.start.date.year}}-{{   i.start.date.month|stringformat:"02d" }}-{{   i.start.date.day}}T{{i.start.time.hour |stringformat:"02d" }}:{{i.start.time.minute |stringformat:"02d" }}:{{i.start.time.second |stringformat:"02d" }}',
+          end: '{{   i.end.date.year}}-{{   i.end.date.month}}-{{   i.end.date.day|stringformat:"02d" }}',
+        	description: '{{ i.desc }}'
 				},
                 {% endfor %}
 			],
