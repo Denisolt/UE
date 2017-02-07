@@ -1,5 +1,5 @@
 from django.db import models
-
+from colorfield.fields import ColorField
 from django.utils import timezone
 # Create your models here.
 # Mahmoud Saleh, [03.01.17 22:09]
@@ -8,7 +8,7 @@ class Event(models.Model):
     start = models.DateTimeField()
     end = models.DateTimeField()
     desc = models.TextField()
-    hex = models.CharField(max_length=5)
+    color = ColorField(default='#3498db')
 
     def publish(self):
         self.published_date = timezone.now()

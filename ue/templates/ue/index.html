@@ -119,7 +119,7 @@
 	  <ul class="dropdown-menu" style="background-color:#286090; min-width:100%;">
 	    <li><a href="#">Papa</a></li>
 	    <li><a href="#">Bless</a></li>
-	    
+
 	  </ul>
 	</div></li>
 
@@ -544,7 +544,8 @@ $(document).ready(function() {
 					//time:'{{i.start.time.hour |stringformat:"02d" }}:{{i.start.time.minute |stringformat:"02d" }}:{{i.start.time.minute |stringformat:"02d" }}:{{i.start.time.seconds |stringformat:"02d" }}',
 					start: '{{   i.start.date.year}}-{{   i.start.date.month|stringformat:"02d" }}-{{   i.start.date.day|stringformat:"02d"}}T{{i.start.time.hour |stringformat:"02d" }}:{{i.start.time.minute |stringformat:"02d" }}:{{i.start.time.second |stringformat:"02d" }}',
           end: '{{   i.end.date.year}}-{{   i.end.date.month}}-{{   i.end.date.day|stringformat:"02d" }}',
-        	description: '{{ i.desc }}'
+        	description: '{{ i.desc }}',
+					backgroundColor: '{{i.color}}'
 				},
                 {% endfor %}
 			],
