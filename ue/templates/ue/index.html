@@ -533,7 +533,7 @@ $(document).ready(function() {
 					title: '{{  i.title  }} ',
           day: '{{   i.start.date}}',
 					//time:'{{i.start.time.hour |stringformat:"02d" }}:{{i.start.time.minute |stringformat:"02d" }}:{{i.start.time.minute |stringformat:"02d" }}:{{i.start.time.seconds |stringformat:"02d" }}',
-					start: '{{   i.start.date.year}}-{{   i.start.date.month|stringformat:"02d" }}-{{   i.start.date.day}}T{{i.start.time.hour |stringformat:"02d" }}:{{i.start.time.minute |stringformat:"02d" }}:{{i.start.time.second |stringformat:"02d" }}',
+					start: '{{   i.start.date.year}}-{{   i.start.date.month|stringformat:"02d" }}-{{   i.start.date.day|stringformat:"02d"}}T{{i.start.time.hour |stringformat:"02d" }}:{{i.start.time.minute |stringformat:"02d" }}:{{i.start.time.second |stringformat:"02d" }}',
           end: '{{   i.end.date.year}}-{{   i.end.date.month}}-{{   i.end.date.day|stringformat:"02d" }}',
         	description: '{{ i.desc }}'
 				},
