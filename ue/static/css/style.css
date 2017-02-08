@@ -708,7 +708,9 @@ h1, h2, h3, h4, h5, h6 {
   -o-transform: rotateZ(-45deg);
   transform: rotateZ(-45deg);
 }
-
+.deez{
+  background: #fff !important;
+}
 .fh5co-nav-toggle {
   position: absolute;
   top: 12px;
@@ -780,10 +782,14 @@ h1, h2, h3, h4, h5, h6 {
   background: #6173f4;
 }
 .btn:hover, .btn:active, .btn:focus {
-  background: #393e46 !important;
+  background: transparent !important;
   color: #fff;
   outline: none !important;
 }
+.btn:hover, .btn:active, .btn:focus, .deez{
+  background:transparent!important;
+}
+
 .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active {
   border-color: transparent;
 }
