@@ -79,10 +79,10 @@ DATETIME_FORMAT=[     # '2006-10-25 14:30:59'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd63iiu69mchvov',
-        'USER': 'pnojbyyyllmhlo',
-        'PASSWORD': 'e56a6e93c88e66f1ecb9f93973d489c01536a19245c491cb539e71210bbc312e',
-        'HOST': 'ec2-54-235-123-159.compute-1.amazonaws.com',
+        'NAME': 'd5kbgs6mupomh7',
+        'USER': 'lyuaiefhxnksjg',
+        'PASSWORD': '672ec25f3006435e0c121a306ad58cc8384dc1fa61bf53225ac7f4d4463959c9',
+        'HOST': 'ec2-54-235-245-255.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
@@ -127,11 +127,8 @@ USE_TZ = False
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-STATICFILES_FINDER = (
-    'djangobower.finders.BowerFinder',
-    )
+STATICFILES_FINDER = ('djangobower.finders.BowerFinder',)
 BOWER_COMPONENTS_ROOT = os.path.join(BASE_DIR, 'components')
-
 BOWER_INSTALLED_APPS = (
     'jquery',
     'bootstrap'

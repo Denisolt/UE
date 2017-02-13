@@ -9,6 +9,7 @@ class Event(models.Model):
     end = models.DateTimeField()
     desc = models.TextField()
     color = ColorField(default='#3498db')
+    yolo=models.CharField(max_length=1)
 
     def publish(self):
         self.published_date = timezone.now()
