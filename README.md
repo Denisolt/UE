@@ -22,5 +22,6 @@ Configuring and running Django:
 ```
 Credits
 -----------------------------------------
-[Mahmoud Saleh](https://github.com/msdocs)
+[@msdocs Mahmoud Saleh](https://github.com/msdocs)
+
 freehtml5.co for free html template
