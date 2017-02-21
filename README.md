@@ -6,15 +6,13 @@ Website is build on Django, users are capable of adding events to the calendar <
 
 Installation
 -----------------------------------------
-Activation virtual environment:
-```bash
-
+Activation of virtual environment:
+```
 source bin/activate
 pip install -r /path/to/requirements.txt
-
-```bash
-
-```python
+```
+Configuring and running Django:
+```
 
 ./manage.py createsuperuser #creating a super user
 ./manage.py makemigrations #creating a migration
