@@ -1,7 +1,7 @@
 # United Engineering
 This is the website created by <a href="https://github.com/acmnyit">ACM NYIT chapter</a> for all engineering clubs at NYIT manhattan campus <br/>
 Website is build on Django, users are capable of adding events to the calendar <br/>
-Check out the website: <a href="http://UE-nyit.org">ue-nyit.org</a>
+<h1>Check out the website: <a href="http://UE-nyit.org">ue-nyit.org</a> <h1/>
 ![alt tag](https://github.com/Denisolt/UE/blob/master/mainpage.png?raw=true)
 Installation
 -----------------------------------------
