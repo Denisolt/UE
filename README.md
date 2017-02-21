@@ -7,7 +7,7 @@ Installation
 -----------------------------------------
 Activation of virtual environment:
 ```
-source bin/activate
+source local/bin/activate
 pip install -r /path/to/requirements.txt
 ```
 Configuring and running Django:
