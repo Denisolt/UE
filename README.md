@@ -12,11 +12,11 @@ pip install -r /path/to/requirements.txt
 ```
 Configuring and running Django:
 ```
-# creating a super user
+#creating a super user
 ./manage.py createsuperuser 
-# creating a migration
+#creating a migration
 ./manage.py makemigrations
-# run the server
+#run the server
 ./manage.py runserver
 ```
 Credits
