@@ -1,4 +1,4 @@
-# UE
+# United Engineering
 This is website for all engineering clubs at NYIT manhattan campus <br/>
 Website is build on Django, users are capable of adding events to the calendar <br/>
 ![alt tag](https://github.com/Denisolt/UE/blob/master/mainpage.png?raw=true)
